@@ -1,0 +1,27 @@
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.two-column > div {
+  flex: 1 1 0%; /* これで幅を自動調整させやすくする */
+  min-width: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .two-column {
+    flex-direction: column;
+  }
+  .two-column > div {
+    flex: 1 1 100%;
+  }
+}
+
+.two-column img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
