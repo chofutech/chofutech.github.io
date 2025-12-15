@@ -25,3 +25,31 @@
   height: auto;
   display: block;
 }
+
+.newsrelease-label {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+.newsrelease-meta {
+  text-align: right;
+  margin-bottom: 2em;
+  font-size: 0.9rem;
+}
+
+main h3.newsrelease-title {
+  display: block;
+  text-align: center;
+  border-bottom: none;
+}
+
+.newsrelease-hero {
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.newsrelease-hero img {
+  max-width: 100%;
+  height: auto;
+}
