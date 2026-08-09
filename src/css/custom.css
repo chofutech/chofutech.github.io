@@ -53,3 +53,74 @@ main h3.newsrelease-title {
   max-width: 100%;
   height: auto;
 }
+
+/* Events page
+---------------------------------------------------------------------------*/
+.lead {
+  margin-bottom: 2rem;
+}
+
+.event-list {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.event-card {
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.event-card.upcoming {
+  border: 2px solid var(--primary-color);
+}
+
+.event-status {
+  margin-bottom: 0.5rem;
+}
+
+.event-status span {
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--primary-inverse-color);
+  padding: 0.2rem 1rem;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.event-tag {
+  display: inline-block;
+  padding: 0.1rem 0.8rem;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.event-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
+.event-table {
+  margin-bottom: 0;
+}
+
+.event-table th {
+  width: 25%;
+}
+
+.no-event {
+  color: #777;
+}
