@@ -627,6 +627,23 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 	margin-bottom: 0.5rem;	/*画像の下に空けるスペース*/
 }
 
+/*新規追加書籍カバー画像の高さ調整*/
+.list-grid1 .list figure {
+	text-align: center;
+}
+
+.list-grid1 .list figure img[src*="/images/books/"] {
+	max-height: 200px;
+	width: auto;
+	object-fit: contain;
+}
+
+@media screen and (min-width:800px) {
+.list-grid1 .list figure img[src*="/images/books/"] {
+	max-height: 160px;
+}
+}
+
 
 /*ボタン（btnと、btn-border-radius）
 ---------------------------------------------------------------------------*/
