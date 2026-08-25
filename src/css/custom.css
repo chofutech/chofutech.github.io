@@ -76,6 +76,14 @@ main h3.newsrelease-title {
   border: 2px solid var(--primary-color);
 }
 
+.event-card.past {
+  border: 1px solid #ddd;
+}
+
+.event-card.past .event-status span {
+  background: #777;
+}
+
 .event-status {
   margin-bottom: 0.5rem;
 }
